@@ -22,11 +22,11 @@ package main
 
 import (
 	"log"
+	"time"
 
 	"github.com/g-wilson/go-sgp30"
 
 	"github.com/d2r2/go-i2c"
-	"github.com/kr/pretty"
 )
 
 const sensorAddress = 0x10
@@ -65,5 +65,6 @@ func main() {
 			}
 
 		}
+	}
 }
 ```
